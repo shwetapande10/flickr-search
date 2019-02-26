@@ -1,6 +1,6 @@
 # Image Search (Flickr)
 
-Image search app would search for images using the Flickr API
+Image search iphone app would search for images using the Flickr API
 This application can be extended to replace the search functionality with any other API implementation (custom or third-party). The modification to business logic and the search services can be easily done by implementing/replacing the interactor and service components. 
 The default working application fetches the Flickr images.
 ## Features
