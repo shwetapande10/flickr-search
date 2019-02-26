@@ -58,6 +58,8 @@ The application exposes below components
 * ImageSearchInteractor – component for communicating with network service and presenter components
 * ImageSearchService – component to interact with models and network api 
 
+Modify your Flickr key using FlickrRequestConfig.apiKey = "<<Your key>>"
+
 ## `Customization`
 
 These components can be extended for custom implementation and the dependencies needs to be injected in the app.
