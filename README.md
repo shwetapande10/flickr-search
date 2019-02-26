@@ -32,6 +32,7 @@ Follow CocoaPod guidelines
 * Alamofire for network api calls
 * AlamofireImage image lazy load
 * SwiftJSON for response json models
+* ReactiveSwift for sending update notifications to the view
 
 
 ## `Structure`
@@ -40,7 +41,9 @@ Folder Structure
 
 ![Image](readmeImages/codestructure.jpg)
 
-The application structure and components are modeled based on clean architecture principles
+The application structure and components are modeled inspired by clean architecture principles.
+The components are customized and optimizeed accoring to the current application need.
+
 ![Image](https://cdn-images-1.medium.com/max/2000/1*QV4nxWPd_sbGhoWO-X7PfQ.png)
 
 ## `Usage`
@@ -70,7 +73,6 @@ But the current test cases cover most of the functionality.
 
 ## `Notes`
 
-The below features are marked as TODO
 *   Autoresizing mask is used here for simplicity, but ideally to make the layout more resilient Autolayout constraints must be provided which is planned for future releases
 * 	The proper activity indicator should be shown, for now default UIActivityIndicator is used.
 * 	Customization of the view, xib for reusability is considered for future releases. This will make ImageSearchController more generic.
