@@ -1,7 +1,7 @@
 # Image Search (Flickr)
 
-Image search app would search for images for image string using the Flickr API
-This application can be extended to replace the search of Flickr API with any other API implementation (custom or third-party). The modification t business logic and the search services can be easily done by implementing/replacing the interactor and service components. 
+Image search app would search for images using the Flickr API
+This application can be extended to replace the search functionality with any other API implementation (custom or third-party). The modification to business logic and the search services can be easily done by implementing/replacing the interactor and service components. 
 The default working application fetches the Flickr images.
 
 ![Image](readmeImages/appscreen.jpg)
@@ -21,18 +21,18 @@ The default working application fetches the Flickr images.
 ## `Installation`
 
 Open the workspace in XCode, and run the application either on simulator or on device.
-Make sure you open xcode workspace and not project and the project has dependencies on CocoaPod libraries
-Follow CocoaPod guidelines
+Make sure you open the XCode workspace and not project as the project has dependencies on CocoaPod libraries.
+Follow CocoaPod guidelines.
 
 ## `Prerequsites`
 * XCode 10
 * iOS 10 + 
 
 ## `Dependencies`
-* Alamofire for network api calls
-* AlamofireImage image lazy load
-* SwiftJSON for response json models
-* ReactiveSwift for sending update notifications to the view
+* Alamofire for network api calls.
+* AlamofireImage image lazy load.
+* SwiftJSON for response json models.
+* ReactiveSwift for sending model update notifications to the view.
 
 
 ## `Structure`
@@ -41,13 +41,14 @@ Folder Structure
 
 ![Image](readmeImages/codestructure.jpg)
 
-The application structure and components are modeled inspired by clean architecture principles.
-The components are customized and optimizeed accoring to the current application need.
+The application structure and components are modeled based on clean architecture principles.
+The components are customized and optimized according to the current application need.
+Below image will givee you the glimpse of component inteer-communication.
 
 ![Image](https://cdn-images-1.medium.com/max/2000/1*QV4nxWPd_sbGhoWO-X7PfQ.png)
 
 ## `Usage`
-The application exposes below dependencies
+The application exposes below components
 * ImageData – view model
 * ImagePresenter – component for populating the view model
 * ImageSearchInteractor – component for communicating with network service and presenter components
@@ -87,5 +88,4 @@ Shweta Pande
 
 ## `License`
 
-This project is licensed under the MIT License
-
+This project is licensed under the MIT License.
