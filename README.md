@@ -4,7 +4,7 @@ Image search app would search for images for image string using the Flickr API
 This application can be extended to replace the search of Flickr API with any other API implementation (custom or third-party). The modification t business logic and the search services can be easily done by implementing/replacing the interactor and service components. 
 The default working application fetches the Flickr images.
 
-![Image](readmeImages/appscreen.png)
+![Image](readmeImages/appscreen.jpg)
 
 # Table of Contents
 1. [`Installation`](#installation)
